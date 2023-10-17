@@ -1,0 +1,48 @@
+* {
+    color: white;
+    font-size: 2rem;
+}
+
+.parent {
+    background-color: #335c67;
+    width: 60%;
+    height: 50vh;
+}
+
+/* position: static is the default CSS position and placement of elements cannot be adjusted*/
+.child-one {
+    background-color: #e09f3e;
+    width: 60%;
+    height: 10vh;
+    position: relative;
+    left: 919px;
+}
+
+/* position: relative the element is positioned according to its original position.*/
+.child-two {
+    background-color: #fff3b0;
+    width: 70%;
+    height: 10vh;
+    position: absolute;
+    left: 250px;
+    top: 200px;
+}
+
+/*position: absolute the element is positioned according to its parent element*/
+.child-three {
+    background-color: #9e2a2b;
+    width: 80%;
+    height: 10vh;
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+
+/*position: fixed the element is positioned according to the browser window. 
+The element will always stay fixed at the positioned spot.*/
+.child-four {
+    background-color: #540b0e;
+    width: 90%;
+    height: 10vh;
+    position: fixed;
+}
